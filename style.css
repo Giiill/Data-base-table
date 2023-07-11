@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+.table {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+}
+.table__headings {
+    display: flex;
+    
+}
+.table__heading {
+    border: 1px solid #e40909; 
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.table__body {
+
+}
+.table__list {
+    display: flex;
+}
+.table__list-id {
+    border: 1px solid #e40909; 
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 18px;   
+}
+.table__list-firstName {
+    border: 1px solid #e40909; 
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+.table__list-lastName {
+    border: 1px solid #e40909; 
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+.table__list-email {
+    border: 1px solid #e40909; 
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+.table__list-phone {
+    border: 1px solid #e40909; 
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+.buttons {
+    max-width: 190px;
+    display: flex;
+    flex-direction: column;
+}
+.buttons button {
+    margin-bottom: 10px;
+}
+.table__info {
+}
+.table__info-id {
+}
+.table__info-firstName {
+}
+.table__info-LastName {
+}
+.table__info-Email {
+}
+.table__info-phone {  
+}
+.marked {
+    background-color: rgb(80, 151, 9);
+    animation: fadeOut 4s ease forwards;
+}
+@keyframes fadeOut {
+    from {
+        background-color: rgb(80, 151, 9);
+    }
+    to {
+        background-color: rgba(80, 151, 9, 0.678);
+    }
+}
